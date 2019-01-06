@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#a1{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			display: inline-block;
+			margin: 100px;
+			-ms-transform: rotate(45deg); /* IE 9 */
+ 			-webkit-transform: rotate(45deg); /* Safari */
+  			transform: rotate(45deg);
+		}
+		#a2{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			display: inline-block;
+			margin: 30px;
+			-ms-transform: scale(0.7, 0.7); /* IE 9 */
+  			-webkit-transform: scale(0.7, 0.7); /* Safari */
+  			transform: scale(0.7, 0.7);
+		}
+		#a3{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			display: inline-block;
+			margin: 30px;
+			transform: skewY(20deg);
+			transform: skewX(20deg);
+			transform: matrix(1, -0.3, 0, 1, 0, 0);
+			transform: scaleX(2, 3);
+			transform: scaleY(2, 3);
+			transform: translateX(50px, 100px);
+			transform: translateY(50px, 100px);
+		}
+	</style>
+</head>
+<body>
+      <article id="a1"> Scrivi 1° box dentro il primo box </article>
+      <article id="a2"> Scrivi 2° box dentro il secondo box </article>
+      <article id="a3"> Scrivi 3° box dentro il terzo box </article>
+      
+</body>
+</html>
